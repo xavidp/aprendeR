@@ -84,7 +84,7 @@ Puedes aprender más sobre `millas` abriendo su página de ayuda. La página de 
 
 ### ? sintaxis
 
-Puedes abrir una página de ayuda para cualquier objeto que venga con R o con un paquete R. Para abrir la página de ayuda, escribe un `?` antes del nombre del objeto y luego ejecuta el comando, como lo hiziste con `?millas`. Esta técnica funciona para funciones, paquetes y más.
+Puedes abrir una página de ayuda para cualquier objeto que venga con R o con un paquete R. Para abrir la página de ayuda, escribe un `?` antes del nombre del objeto y luego ejecuta el comando, como lo hiciste con `?millas`. Esta técnica funciona para funciones, paquetes y en más casos.
 
 Ten en cuenta que los objetos creados por ti y tus colegas no tendrán una página de ayuda (a menos que crees una).
 

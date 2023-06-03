@@ -72,7 +72,7 @@ Una vez que hagas clic en "Ejecutar código", la respuesta `[1] 9` debería apar
 
 ###
 
-Hay dos tipos de respuestas para las preguntas del tutorial: texto y código. Con las respuestas en texto (prosa), usarás el botón "Enviar respuesta", como lo hiziste con tu nombre y correo electrónico. Con las respuestas de código, usa el botón "Ejecutar código", como lo hiziste para esta pregunta.
+Hay dos tipos de respuestas para las preguntas del tutorial: texto y código. Con las respuestas en texto (prosa), usarás el botón "Enviar respuesta", como lo hiciste con tu nombre y correo electrónico. Con las respuestas de código, usa el botón "Ejecutar código", como lo hiziste para esta pregunta.
 
 ###
 
