@@ -392,28 +392,14 @@
     },
     "datos": {
       "Package": "datos",
-      "Version": "0.5.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "Lahman",
-        "R",
-        "babynames",
-        "dplyr",
-        "forcats",
-        "fueleconomy",
-        "gapminder",
-        "ggplot2",
-        "modeldata",
-        "nasaweather",
-        "nycflights13",
-        "palmerpenguins",
-        "rlang",
-        "tibble",
-        "tidyr",
-        "yaml"
-      ],
-      "Hash": "40afe5f366e71ef993df0822e65a5f0b"
+      "Version": "0.5.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "cienciadedatos",
+      "RemoteRepo": "datos",
+      "RemoteRef": "main",
+      "RemoteSha": "442aeb196aeaba734c92c6c27d31a022e3ea026f"
     },
     "dbplyr": {
       "Package": "dbplyr",
