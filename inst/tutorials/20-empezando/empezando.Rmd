@@ -186,7 +186,7 @@ Tu versión de R puede ser más reciente, pero no debería ser más antigua. Est
 
 ###
 
-El flujo de trabajo del tutorial a menudo se verá así. Te decimos que ejecutes un comando. Tú lo ejecutas. Luego te pedimos que copies/pegues, desde la consola, tanto el comando en sí como la respuesta devuelta. Debido a que te pedimos que **c**copies/**p**egues el **c**comando/**r**respuesta con tanta frecuencia, generalmente acortamos esta instrucción a CP/CR.
+El flujo de trabajo del tutorial a menudo se verá así. Te decimos que ejecutes un comando. Tú lo ejecutas. Luego te pedimos que copies/pegues, desde la consola, tanto el comando en sí como la respuesta devuelta. Debido a que te pedimos que **c**opies/**p**egues el **c**omando/**r**espuesta con tanta frecuencia, generalmente acortamos esta instrucción a CP/CR.
 
 
 ### Ejercicio 7
