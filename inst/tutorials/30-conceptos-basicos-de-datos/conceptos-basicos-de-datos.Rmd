@@ -203,3 +203,6 @@ question("¿Qué tipos de variables contiene `vuelos`? Marca todo lo que corresp
 
 Has conocido las estructuras básicas de tablas en R: _data frames_ y _tibbles_; y has aprendido a inspeccionar su contenido. Cuando estés listo/a, continúa con el siguiente tutorial para comenzar a visualizar tus datos.
 
+### 
+
+Ya puedes hacer click sobre el botón de "Stop tutorial" de la barra superior de este tutorial, para volver al menú y elegir el siguiente tutorial.
