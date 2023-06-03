@@ -1,8 +1,8 @@
 ---
 title: Hojas de Cálculo
-author: David Kane
+author: David Kane (traducido por Xavier de Pedro)
 tutorial:
-  id: spreadsheets
+  id: hojas-de-calculo
 output:
   learnr::tutorial:
     language: es
