@@ -1,8 +1,8 @@
 ---
 title: Empezando
-author: David Kane
+author: David Kane (Traducido por Xavier de Pedro)
 tutorial:
-  id: getting-started
+  id: empezando
 output:
   learnr::tutorial:
     language: es  
@@ -254,7 +254,7 @@ Copia y pega todo, desde el "Ejercicio 9" hasta el final de esta frase, en el cu
 
 ```{r tutorial-exercises-9}
 question_text(NULL,
-    message = "A veces proporcionaremos una respuesta a las preguntas escritas. Otras veces, como aquí, no lo haremos. En el primer caso, no te permitiremos volver a enviar tu respuesta. ¡No te estreses! La mayoría de las personas instructoras califican los tutoriales sobre la base de aprobado/suspendido, por lo que, siempre que hagas un esfuerzo honesto, lo harás bien.",          
+    message = "A veces proporcionaremos una respuesta a las preguntas escritas. Otras veces, como aquí, no lo haremos. En el primer caso, no te permitiremos volver a enviar tu respuesta. ¡No te estreses! La mayoría de las personas instructoras, si te evaluan tu aprendizaje, es muy probable que califiquen los tutoriales sobre la base de aprobado/suspendido, por lo que, siempre que hagas un esfuerzo honesto, lo harás bien.",          
     answer(NULL, 
            correct = TRUE),
     allow_retry = FALSE,
@@ -267,7 +267,7 @@ question_text(NULL,
 
 Al final de cada tutorial, guardarás tu trabajo (y lo enviarás, a discreción de tu persona instructora). Haremos esto en el siguiente panel, etiquetado como "Enviar". Sigue las instrucciones allí.
 
-Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
+Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` o parecido con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
 
 ### 
 
@@ -277,4 +277,8 @@ Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo l
 ## Resumen
 ### 
 
-Ahora comprendes cómo funcionan los tutoriales y cómo descargar copias de tus respuestas.
+*¡Felicidades!* Ahora comprendes cómo funcionan los tutoriales y cómo descargar copias de tus respuestas.
+
+### 
+
+Ya puedes hacer click sobre el botón de "Stop tutorial" de la barra superior de este tutorial, para volver al menú y elegir el siguiente tutorial.
