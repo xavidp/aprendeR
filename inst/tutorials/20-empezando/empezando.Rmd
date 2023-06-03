@@ -267,7 +267,7 @@ question_text(NULL,
 
 Al final de cada tutorial, guardarás tu trabajo (y lo enviarás, a discreción de tu persona instructora). Haremos esto en el siguiente panel, etiquetado como "Enviar". Sigue las instrucciones allí.
 
-Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` o parecido con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
+Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` o `empezando_answers` con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
 
 ### 
 
