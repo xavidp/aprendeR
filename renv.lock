@@ -392,14 +392,28 @@
     },
     "datos": {
       "Package": "datos",
-      "Version": "0.5.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "cienciadedatos",
-      "RemoteRepo": "datos",
-      "RemoteRef": "main",
-      "RemoteSha": "442aeb196aeaba734c92c6c27d31a022e3ea026f"
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "Lahman",
+        "R",
+        "babynames",
+        "dplyr",
+        "forcats",
+        "fueleconomy",
+        "gapminder",
+        "ggplot2",
+        "modeldata",
+        "nasaweather",
+        "nycflights13",
+        "palmerpenguins",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "yaml"
+      ],
+      "Hash": "40afe5f366e71ef993df0822e65a5f0b"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -1915,6 +1929,13 @@
         "stats"
       ],
       "Hash": "c0e49a9760983e81e55cdd9be92e7182"
+    },
+    "writexl": {
+      "Package": "writexl",
+      "Version": "1.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "43da939eaf6681c88eba977b9012dad9"
     },
     "xfun": {
       "Package": "xfun",
