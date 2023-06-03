@@ -199,7 +199,7 @@ Por lo general, puedes llamar a las funciones simplemente dando su nombre, como 
 
 ###
 
-Para confirmar que has ejecutado este comando, ejecuta `rstudioapi::readRStudioPreference(name = "load_workspace", default = "Code failed.")` desde la Consola de R. PC/CR.
+Para confirmar que has ejecutado este comando, ejecuta `rstudioapi::readRStudioPreference(name = "load_workspace", default = "Code failed.")` desde la Consola de R. CP/CR.
 
 ```{r tutorial-exercises-7}
 question_text(NULL,
@@ -229,7 +229,7 @@ Ejecuta este comando en la Consola: `tutorial.helpers::set_binary_only_in_r_prof
 
 ###
 
-Ejecuta este comando en la Consola: `options("pkgType")`. PC/CR.
+Ejecuta este comando en la Consola: `options("pkgType")`. CP/CR.
 
 
 ```{r tutorial-exercises-8}
