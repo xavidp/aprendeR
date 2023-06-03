@@ -1,13 +1,23 @@
 Package: aprendeR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tutoriales para Facilitar el Aprendizaje de R Moderno
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Xavier de Pedro Puente y los autores de las versiones originales en 
+    inglés donde corresponda (Garrick Aden-Buie, David Kane, Miriam Heiss, etc)
+Maintainer: Xavier de Pedro Puente <xavi@seeds4c.org>
+Description: El paquete incluye traducciones al castellano de tutoriales 
+    presentes en otros paquetes (learnr, tutorial.helpers, r4ds.tutorials, ...),
+    y eventualmente nuevos tutoriales al uso para facilitar el progreso con 
+    cursvas de apredizaje poco empinadas para la gente que empieza con R en 
+    general y con Tidyverse (R moderno) en particular.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/xavidp/aprendeR
 BugReports: https://github.com/xavidp/aprendeR/issues
+Depends: 
+    learnr
+Remotes: cienciadedatos/datos
+Imports: 
+    ggplot2,
+    tutorial.helpers
