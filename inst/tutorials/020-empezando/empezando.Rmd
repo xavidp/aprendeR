@@ -23,7 +23,7 @@ options(tutorial.exercise.timelimit = 60,
         tutorial.storage = "local") 
 ```
 
-```{r copy-code-chunk, child = system.file("child_documents/copy_button.Rmd", package = "tutorial.helpers")}
+```{r copy-code-chunk, child = system.file("child_documents/copy_button.Rmd", package = "aprendeR")}
 ```
 
 <!-- DK: Set up a default version of this on RStudio Cloud that anyone can run at anytime? Could add a question about looking at a data set. -->
@@ -42,7 +42,7 @@ Puedes completar un tutorial en tu ordenador portátil o en una plataforma de co
 
 Muchos tutoriales comienzan pidiéndote tu nombre y correo electrónico. Completa el tuyo y luego haz clic en el botón **"Enviar respuesta"**. Si cometes un error, puedes hacer clic en **"Editar respuesta"** y volver a intentarlo.
 
-```{r info-section, child = system.file("child_documents/info_section.Rmd", package = "tutorial.helpers")}
+```{r info-section, child = system.file("child_documents/info_section.Rmd", package = "aprendeR")}
 ```
 
 ## Ejercicios de los tutoriales
@@ -277,7 +277,7 @@ Al final de cada tutorial, guardarás tu trabajo (y lo enviarás, a discreción 
 
 Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` o `empezando_answers` con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
 
-```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "tutorial.helpers")}
+```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "aprendeR")}
 ```
 
 ## Resumen
