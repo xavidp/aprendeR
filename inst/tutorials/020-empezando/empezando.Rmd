@@ -102,7 +102,7 @@ Una vez que hagas clic en "Ejecutar código", la respuesta `[1] 9` debería apar
 
 A menudo necesitaremos copiar código de nuestros ejercicios anteriores para continuar trabajando en un problema que se vaya a resolver por etapas. Para hacerlo más fácil, proporcionamos un botón que dice `Copiar el código anterior`. Debajo del siguiente cuadro, haz clic en el botón `Copiar el código anterior`.
 
-```{r tutorial-exercises-3, exercise = TRUE}
+```{r tutorial-exercises-3a, exercise = TRUE}
 
 ```
 
@@ -115,6 +115,13 @@ Esto debería pegar todo el trabajo del ejercicio previo en el área de código 
 ###
 
 Cambia los valores a `x <- 6` e `y <- 10`. Presiona "Ejecutar código". Deberías obtener la respuesta 16.
+
+
+```{r tutorial-exercises-3b, exercise = TRUE}
+
+```
+
+<button onclick = "transfer_code(this)">Copiar el código anterior</button>
 
 ###
 
@@ -154,7 +161,7 @@ Deberías recibir el mensaje de advertencia que se muestra a continuación. (Ten
 knitr::include_graphics("images/terminate_jobs.png")
 ```
 
-Haz clic en "Terminate jobs". Vuelve a abrir este tutorial. El progreso del tutorial se habrá guardado automáticamente.
+Tendrás que hacer clic en "Terminate jobs". Luego volver a abrir este tutorial, a través de clicar en el icono de la casa que hay en la barra superior del tutorial en la esquina superior izquierda, y clicar de nuevo en "Start tutorial" en este tutorial y desplazarte hasta abajo de todo para seguir donde estabas. Verás que el progreso del tutorial se habrá guardado automáticamente.
 
 
 ### Ejercicio 6
@@ -226,10 +233,11 @@ La respuesta debe ser `FALSE`. Si no es así, intenta volver a ejecutar `tutoria
 ### Ejercicio 8
 
 Ejecuta este comando en la Consola: `tutorial.helpers::set_binary_only_in_r_profile()`.
+No hace falta que copies y pegues la respuesta aún, lo harás tras el comando del siguiente paso.
 
 ###
 
-Ejecuta este comando en la Consola: `options("pkgType")`. CP/CR.
+Ejecuta ahora este comando en la Consola: `options("pkgType")`. CP/CR.
 
 
 ```{r tutorial-exercises-8}
@@ -263,13 +271,11 @@ question_text(NULL,
 ```
 
 ## Tus respuestas
-### 
+###
 
 Al final de cada tutorial, guardarás tu trabajo (y lo enviarás, a discreción de tu persona instructora). Haremos esto en el siguiente panel, etiquetado como "Enviar". Sigue las instrucciones allí.
 
 Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` o `empezando_answers` con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
-
-### 
 
 ```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "tutorial.helpers")}
 ```
