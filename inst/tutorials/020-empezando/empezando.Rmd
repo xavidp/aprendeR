@@ -127,6 +127,10 @@ Cambia los valores a `x <- 6` e `y <- 10`. Presiona "Ejecutar código". Debería
 
 Ten en cuenta que el símbolo de asignación --- `<-` --- es un signo menor que seguido de un guión. A menudo pronunciamos el símbolo como "recibe". Así, podríamos decir, al leer este código, que "x recibe 6".
 
+###
+
+¿Recordaste presionar el botón "Run code" ("Ejecutar código") de arriba? ¡Muchas personas se olvidan! Debes darle al botón para que se grabe tu respuesta.
+
 ### Ejercicio 4
 
 Carguemos nuestro primer paquete R. Escribe `library(tidyverse)` y luego presiona "Ejecutar código".
@@ -163,6 +167,7 @@ knitr::include_graphics("images/terminate_jobs.png")
 
 Tendrás que hacer clic en "Terminate jobs". Luego volver a abrir este tutorial, a través de clicar en el icono de la casa que hay en la barra superior del tutorial en la esquina superior izquierda, y clicar de nuevo en "Start tutorial" en este tutorial y desplazarte hasta abajo de todo para seguir donde estabas. Verás que el progreso del tutorial se habrá guardado automáticamente.
 
+Ahora que has leido todas las instrucciones, puedes llevarlas a cabo.
 
 ### Ejercicio 6
 
@@ -258,7 +263,7 @@ Esto garantiza que, cuando instales nuevos paquetes, no intentarás, de forma pr
 
 Los tutoriales pueden incluir respuestas escritas. Ya has visto varios ejemplos. A veces, esas respuestas escritas son solo copias de los comandos R y sus resultados. Otras veces, te pediremos que escribas una o más frases en texto (prosa).
 
-Copia y pega todo, desde el "Ejercicio 9" hasta el final de esta frase, en el cuadro de respuesta a continuación.
+Copia y pega todo, desde el "Ejercicio 9" hasta el final de esta frase, en el cuadro de respuesta a continuación. Es decir, estas copiando texto de este tutorial, no de la Consola de R esta vez.
 
 ```{r tutorial-exercises-9}
 question_text(NULL,
@@ -283,7 +288,7 @@ Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo l
 ## Resumen
 ### 
 
-*¡Felicidades!* Ahora comprendes cómo funcionan los tutoriales y cómo descargar copias de tus respuestas.
+*¡Felicidades!* Ahora comprendes cómo funcionan los tutoriales y cómo descargar copias de tus respuestas. ¡Buena suerte con tu viaje por la ciencia de datos!
 
 ### 
 
