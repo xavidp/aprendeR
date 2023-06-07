@@ -20,4 +20,16 @@ Depends:
 Remotes: cienciadedatos/datos
 Imports: 
     ggplot2,
-    tutorial.helpers
+    tutorial.helpers,
+    dplyr,
+    grDevices,
+    gridExtra,
+    learnr,
+    parsermd,
+    purrr,
+    readr,
+    rmarkdown,
+    rstudioapi,
+    shiny,
+    stringr,
+    tibble
