@@ -22,10 +22,10 @@ options(tutorial.exercise.timelimit = 60,
         tutorial.storage = "local")
 ```
 
-```{r copy-code-chunk, child = system.file("child_documents/copy_button.Rmd", package = "tutorial.helpers")}
+```{r copy-code-chunk, child = system.file("child_documents/copy_button.Rmd", package = "aprendeR")}
 ```
 
-```{r info-section, child = system.file("child_documents/info_section.Rmd", package = "tutorial.helpers")}
+```{r info-section, child = system.file("child_documents/info_section.Rmd", package = "aprendeR")}
 ```
 
 <!-- You own every word. You own this tutorial! Fix the images. -->
@@ -110,12 +110,16 @@ Esto debería devolver un valor parecido a `/Users/dkane/Desktop/projects/`. Tu 
 
 ###
 
-Eso es todo lo que necesitas saber sobre el Terminal para este tutorial. En el futuro, completarás un tutorial dedicado por separado llamado "Terminal". Asegúrate de prestar especial atención a si los comandos dados deben ejecutarse en la *Consola* de R o en el *Terminal* del sistema.
+Eso es todo lo que necesitas saber sobre el Terminal para este tutorial. En el futuro, podrías completar un tutorial por separado llamado "Terminal" dedicado explícitamente a este tema. Asegúrate de prestar especial atención a si los comandos dados deben ejecutarse en la *Consola* (de R) o en el *Terminal* (del sistema).
 
-## Configuración de GitHub
+## Git y configuración de GitHub
+### 
+
+[Git](https://en.wikipedia.org/wiki/Git) es un "software para rastrear cambios en cualquier conjunto de archivos, generalmente utilizado para coordinar el trabajo entre personas programadoras que desarrollan código fuente en colaboración durante el desarrollo del software".
+
 ###
 
-GitHub es como una unidad en línea para todos tus proyectos y código en R. En el mundo profesional, lo que tienes en tu cuenta de GitHub es más importante que lo que tienes en tu currículum. Es una demostración comprobable de tus habilidades.
+*GitHub* es un sitio web que ofrece como una unidad en línea para todos tus proyectos y código en R de forma gratuïta mientras sean públicos (disponer de proyectos privados cuesta dinero allí). Sigue siendo muy usado porque fue el sitio web que más se popularizó de soporte web para el uso de *git*, como software de gestión de versiones de código fuente de programas informáticos. Ahora ya existen otros sitios similares, incluso con más funcionalidades y ventajas, como *Gitlab* que también puedes usar en vez de Github si te conviene (en los servidores gratuitos de _gitlab.com_ para proyectos públicos y privados también, o en los *Gitlab* instalados en servidores coporativos locales de las intranets de muchas administraciones públicas, por ejemplo).  En el mundo profesional, lo que tienes en tu cuenta de GitHub o Gitlab, por ejemplo, es más importante que lo que tienes en tu currículum. Es una demostración comprobable de tus habilidades.
 
 ### Ejercicio 1
 
@@ -149,6 +153,10 @@ question_text(NULL,
 
 ### Ejercicio 2
 
+En este tutorial usaremos *Github* para aprender como funciona todo. Lo que aprenderás aquí será muy similar lo que necesites en *gitlab.com* o en el *Gitlab* de la intranet tu institución, si es el caso.
+
+###
+
 El siguiente paso es crear una cuenta de GitHub siguiendo las instrucciones en la [página de inicio de GitHub](https://github.com/). Sigue [este consejo](https://happygitwithr.com/github-acct.html#username-advice) **al elegir tu nombre de persona usuaria.**
 
 ```{r}
@@ -169,10 +177,6 @@ question_text(NULL,
     incorrect = NULL,
     rows = 2)
 ```
-
-### 
-
-[Git](https://en.wikipedia.org/wiki/Git) es un "software para rastrear cambios en cualquier conjunto de archivos, generalmente utilizado para coordinar el trabajo entre personas programadoras que desarrollan código fuente en colaboración durante el desarrollo del software".
 
 ### Ejercicio 3
 
@@ -221,7 +225,7 @@ Ahora, tu nombre de persona usuaria y correo electrónico de GitHub se almacenan
 ## Repositorios en GitHub
 ###
 
-Si GitHub es como nuestro Google Drive o similar, los repositorios de GitHub, o "repos", son como las carpetas de Google o similar donde almacenamos nuestro trabajo. ¡Hagamos un repositorio para practicar!
+Si GitHub es como nuestro Google Drive (o similar), los repositorios de GitHub, o "repos", son como las carpetas de Google (o similar) donde almacenamos nuestro trabajo. ¡Hagamos un repositorio para practicar!
 
 ### Ejercicio 1
 
@@ -233,7 +237,7 @@ include_graphics("images/github_new_repo.png")
 
 ### Ejercicio 2
 
-Nombra tu repositorio `Primer_Repo`. Luego, selecciona la opción "pública" para tu repositorio y marca la casilla que dice "Agregar un archivo README". [README](https://en.wikipedia.org/wiki/README) es un documento en el que las personas programadoras suelen añadir o explicar detalles de su proyecto. En caso de duda, sigue [estas instrucciones](https://happygitwithr.com/push-pull-github.html#make-a-repo-on-github).
+Nombra tu repositorio `Primer_Repo`. Luego, selecciona la opción "public" para tu repositorio y marca la casilla que dice "Agregar un archivo README". [README](https://en.wikipedia.org/wiki/README) es un documento en el que las personas programadoras suelen añadir o explicar detalles de su proyecto. En caso de duda, sigue [estas instrucciones](https://happygitwithr.com/push-pull-github.html#make-a-repo-on-github).
 
 Una vez que hayas hecho eso, continúa y haz clic en "Create repository" para crear tu primer repositorio.
 
@@ -256,7 +260,7 @@ question_text(NULL,
 
 ### 
 
-La opción "público" significa que cualquiera podrá ver el repositorio mientras que solo tú puedes editarlo. Es posible que hayas notado "Add .gitignore" (Añadir .gitignore) como otra opción, pero nunca marcaremos esta opción porque RStudio creará automáticamente un archivo `.gitignore` para nosotros.
+La opción "public" significa que cualquiera podrá ver el repositorio mientras que solo tú puedes editarlo. Es posible que hayas notado "Add .gitignore" (Añadir .gitignore) como otra opción, pero nunca marcaremos esta opción porque RStudio creará automáticamente un archivo `.gitignore` para nosotros.
 
 ### Ejercicio 3
 
@@ -333,11 +337,11 @@ question_text(NULL,
 
 ### Ejercicio 2
 
-Ahora, has vinculado tu repositorio de GitHub a tu proyecto, pero no has demostrado que eres alguien con acceso de edición al proyecto. Si permitimos que cualquier persona con el enlace de GitHub lo edite, eso obviamente generará problemas de seguridad en el futuro. Esta es la razón por la que usamos algo llamado **T**oken de **A**cceso **P**personal, o **PAT** (de sus siglas en inglés).
+Ahora, has vinculado tu repositorio de GitHub a tu proyecto, pero no has demostrado que eres alguien con acceso de edición al proyecto. Si permitimos que cualquier persona con el enlace de GitHub lo edite, eso obviamente generará problemas de seguridad en el futuro. Esta es la razón por la que usamos algo llamado **T**oken de **A**cceso **P**ersonal, o **PAT** (de sus siglas en inglés).
 
 ###
 
-Un PAT es solo una contraseña especial generada por ordenador entre tu ordenador y GitHub que le permite a GitHub conectar tu cuenta de GitHub y tu ordenador. Si deseas obtener más información, consulta la sección "[Token de acceso personal para HTTPS](https://happygitwithr.com/https-pat.html)" de [*Happy Git and GitHub for the useR*](https:// happygitwithr.com/)
+Un PAT es solo una contraseña especial generada por Github para la comunicación entre tu ordenador personal (o el servicio en la nube donde estés ejecutando R) y GitHub. Esto permite a GitHub conectar tu cuenta de GitHub y el ordenador o servidor desde donde te conectas a Github (habitualmente, tu ordenador personal). Si deseas obtener más información, consulta la sección "[Token de acceso personal para HTTPS](https://happygitwithr.com/https-pat.html)" de [*Happy Git and GitHub for the useR*](https:// happygitwithr.com/)
 
 ###
 
@@ -423,7 +427,7 @@ Si estás nerviosa por compartir tu GITHUB_PAT, siéntete libre de cambiarlo des
 
 ###
 
-Paquetes como **usethis** leerán tu archivo .Renviron y accederán a la variable `GITHUB_PAT`, así que asegúrate de usar el formato correcto y nombrar tus variables correctamente.
+Paquetes como **usethis** leerán tu archivo `.Renviron` y accederán a la variable `GITHUB_PAT`, así que asegúrate de usar el formato correcto y nombrar tus variables correctamente.
 
 ## Actualizar .gitignore
 ###
@@ -615,6 +619,13 @@ question_text(NULL,
 ¡Buen trabajo! Has creado otra página de Rpubs/QuartoPub y tus cambios deberían estar guardados en GitHub.
 
 
+## Tus respuestas
+###
+
+```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "aprendeR")}
+```
+
+
 ## Resumen
 ### 
 
@@ -624,5 +635,6 @@ Ahora deberías tener Git trabajando en tu ordenador. Deberías tener una cuenta
 
 La referencia más útil para Git/Github/RStudio es *[Happy Git and GitHub for the useR](https://happygitwithr.com/)*. ¡Guárdate un marcador en tu navegador!
 
-```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "tutorial.helpers")}
-```
+### 
+
+Ya puedes hacer click sobre el botón de "Stop tutorial" de la barra superior de este tutorial, para volver al menú y elegir el siguiente tutorial.
