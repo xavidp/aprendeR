@@ -23,7 +23,7 @@ options(tutorial.exercise.timelimit = 60,
         tutorial.storage = "local") 
 ```
 
-```{r copy-code-chunk, child = system.file("child_documents/copy_button.Rmd", package = "tutorial.helpers")}
+```{r copy-code-chunk, child = system.file("child_documents/copy_button.Rmd", package = "aprendeR")}
 ```
 
 <!-- DK: Set up a default version of this on RStudio Cloud that anyone can run at anytime? Could add a question about looking at a data set. -->
@@ -42,7 +42,7 @@ Puedes completar un tutorial en tu ordenador portátil o en una plataforma de co
 
 Muchos tutoriales comienzan pidiéndote tu nombre y correo electrónico. Completa el tuyo y luego haz clic en el botón **"Enviar respuesta"**. Si cometes un error, puedes hacer clic en **"Editar respuesta"** y volver a intentarlo.
 
-```{r info-section, child = system.file("child_documents/info_section.Rmd", package = "tutorial.helpers")}
+```{r info-section, child = system.file("child_documents/info_section.Rmd", package = "aprendeR")}
 ```
 
 ## Ejercicios de los tutoriales
@@ -102,7 +102,7 @@ Una vez que hagas clic en "Ejecutar código", la respuesta `[1] 9` debería apar
 
 A menudo necesitaremos copiar código de nuestros ejercicios anteriores para continuar trabajando en un problema que se vaya a resolver por etapas. Para hacerlo más fácil, proporcionamos un botón que dice `Copiar el código anterior`. Debajo del siguiente cuadro, haz clic en el botón `Copiar el código anterior`.
 
-```{r tutorial-exercises-3, exercise = TRUE}
+```{r tutorial-exercises-3a, exercise = TRUE}
 
 ```
 
@@ -116,9 +116,20 @@ Esto debería pegar todo el trabajo del ejercicio previo en el área de código 
 
 Cambia los valores a `x <- 6` e `y <- 10`. Presiona "Ejecutar código". Deberías obtener la respuesta 16.
 
+
+```{r tutorial-exercises-3b, exercise = TRUE}
+
+```
+
+<button onclick = "transfer_code(this)">Copiar el código anterior</button>
+
 ###
 
 Ten en cuenta que el símbolo de asignación --- `<-` --- es un signo menor que seguido de un guión. A menudo pronunciamos el símbolo como "recibe". Así, podríamos decir, al leer este código, que "x recibe 6".
+
+###
+
+¿Recordaste presionar el botón "Run code" ("Ejecutar código") de arriba? ¡Muchas personas se olvidan! Debes darle al botón para que se grabe tu respuesta.
 
 ### Ejercicio 4
 
@@ -154,8 +165,9 @@ Deberías recibir el mensaje de advertencia que se muestra a continuación. (Ten
 knitr::include_graphics("images/terminate_jobs.png")
 ```
 
-Haz clic en "Terminate jobs". Vuelve a abrir este tutorial. El progreso del tutorial se habrá guardado automáticamente.
+Tendrás que hacer clic en "Terminate jobs". Luego volver a abrir este tutorial, a través de clicar en el icono de la casa que hay en la barra superior del tutorial en la esquina superior izquierda, y clicar de nuevo en "Start tutorial" en este tutorial y desplazarte hasta abajo de todo para seguir donde estabas. Verás que el progreso del tutorial se habrá guardado automáticamente.
 
+Ahora que has leido todas las instrucciones, puedes llevarlas a cabo.
 
 ### Ejercicio 6
 
@@ -226,10 +238,11 @@ La respuesta debe ser `FALSE`. Si no es así, intenta volver a ejecutar `tutoria
 ### Ejercicio 8
 
 Ejecuta este comando en la Consola: `tutorial.helpers::set_binary_only_in_r_profile()`.
+No hace falta que copies y pegues la respuesta aún, lo harás tras el comando del siguiente paso.
 
 ###
 
-Ejecuta este comando en la Consola: `options("pkgType")`. CP/CR.
+Ejecuta ahora este comando en la Consola: `options("pkgType")`. CP/CR.
 
 
 ```{r tutorial-exercises-8}
@@ -250,7 +263,7 @@ Esto garantiza que, cuando instales nuevos paquetes, no intentarás, de forma pr
 
 Los tutoriales pueden incluir respuestas escritas. Ya has visto varios ejemplos. A veces, esas respuestas escritas son solo copias de los comandos R y sus resultados. Otras veces, te pediremos que escribas una o más frases en texto (prosa).
 
-Copia y pega todo, desde el "Ejercicio 9" hasta el final de esta frase, en el cuadro de respuesta a continuación.
+Copia y pega todo, desde el "Ejercicio 9" hasta el final de esta frase, en el cuadro de respuesta a continuación. Es decir, estas copiando texto de este tutorial, no de la Consola de R esta vez.
 
 ```{r tutorial-exercises-9}
 question_text(NULL,
@@ -263,21 +276,19 @@ question_text(NULL,
 ```
 
 ## Tus respuestas
-### 
+###
 
 Al final de cada tutorial, guardarás tu trabajo (y lo enviarás, a discreción de tu persona instructora). Haremos esto en el siguiente panel, etiquetado como "Enviar". Sigue las instrucciones allí.
 
 Después de pulsar el botón "Descargar", se te pedirá que guardes un archivo llamado `getting-started_answers` o `empezando_answers` con un sufijo que depende del botón que hayas seleccionado. Puede descargar tus respuestas como archivos `rds`, `html` o `pdf`. Este archivo se guardará en la carpeta Descargas predeterminada de tu ordenador, incluso si completaste el tutorial en una plataforma de computación en la nube. Si lo deseas, puedes descargar varios formatos.
 
-### 
-
-```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "tutorial.helpers")}
+```{r download-answers, child = system.file("child_documents/download_answers.Rmd", package = "aprendeR")}
 ```
 
 ## Resumen
 ### 
 
-*¡Felicidades!* Ahora comprendes cómo funcionan los tutoriales y cómo descargar copias de tus respuestas.
+*¡Felicidades!* Ahora comprendes cómo funcionan los tutoriales y cómo descargar copias de tus respuestas. ¡Buena suerte con tu viaje por la ciencia de datos!
 
 ### 
 

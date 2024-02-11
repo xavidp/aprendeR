@@ -1,20 +1,20 @@
-## Information
+## Información
 ###
 
 ```{r information-name}
 question_text(
-    "Name:",
+    "Nombre:",
     answer(NULL, correct = TRUE),
     allow_retry = TRUE,
-    try_again = "Edit Answer",
+    try_again = "Edita la Respuesta",
     incorrect = NULL)
 ```
 
 ```{r information-email}
 question_text(
-    "Email:",
+    "Correo-e:",
     answer(NULL, correct = TRUE),
     allow_retry = TRUE,
-    try_again = "Edit Answer",
+    try_again = "Edita la Respuesta",
     incorrect = NULL)
 ```

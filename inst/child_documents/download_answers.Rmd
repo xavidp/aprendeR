@@ -1,11 +1,11 @@
-## Download answers
+## Descarga respuestas
 
 ```{r download-answers-1}
 question_numeric(
-	"How many minutes, approximately, did it take you to complete this tutorial? For example, an hour and a half would be 90 minutes.",
+	"¿Cuantos minutos, aproximadamente, te llevó completar este tutorial? Por ejemplo, una hora y media serían 90 minutos.",
 	answer(NULL, correct = TRUE),
 	allow_retry = TRUE,
-	try_again = "Edit Answer",
+	try_again = "Edita la Respuesta",
 	incorrect = NULL,
   min = 0,
 	max = 360,

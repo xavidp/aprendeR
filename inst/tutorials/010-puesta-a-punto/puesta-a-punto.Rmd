@@ -145,3 +145,12 @@ quiz(caption = "Cuestionario - Trabajar con Paquetes",
    )
 )
 ```
+
+## Resumen
+### 
+
+*¡Felicidades!* Ahora sabes qué es R, RStudio y los paquetes de R.
+
+### 
+
+Ya puedes hacer click sobre el botón de "Stop tutorial" de la barra superior de este tutorial, para volver al menú y elegir el siguiente tutorial.
