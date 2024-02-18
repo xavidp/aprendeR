@@ -45,6 +45,7 @@ Lista de tutoriales diponibles por ahora:
     - 050-filtrar-datos               <- learnr/ex-data-filter
     - 060-mutar-datos                 <- learnr/ex-data-mutate
     - 070-resumir-datos               <- learnr/ex-data-sumarise
+    - 080-rstudio-y-github            <- r4ds.tutorials/04-rstudio-and-github
     - 100-hojas-de-calculo            <- r4ds.tutorials/spreadsheets
     
     
