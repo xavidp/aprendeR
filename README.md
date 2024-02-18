@@ -18,7 +18,7 @@ Para instalarlo la primera vez desde [GitHub](https://github.com/) directamente 
 ``` r
 if (!require("remotes")) install.packages("remotes")
 remotes::install_github("xavidp/aprendeR")
-library("aprenderR")
+library("aprendeR")
 ```
 
 ## Uso de los tutoriales
